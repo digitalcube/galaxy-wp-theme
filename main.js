@@ -13,3 +13,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
     item.removeAttribute("href");
   });
 });
+
+// Showcase
+document.addEventListener("DOMContentLoaded", function (event) {
+  let link = document.querySelectorAll(".showcase a");
+  link.forEach((item) => {
+    item.removeAttribute("href");
+  });
+});
