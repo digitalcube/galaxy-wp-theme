@@ -8,7 +8,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // Features
 document.addEventListener("DOMContentLoaded", function (event) {
-  let link = document.querySelectorAll(".features a");
+  let link = document.querySelectorAll(
+    ".features .elementor-post__thumbnail__link, .features .elementor-post__title"
+  );
   link.forEach((item) => {
     item.removeAttribute("href");
   });
@@ -16,7 +18,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // Showcase
 document.addEventListener("DOMContentLoaded", function (event) {
-  let link = document.querySelectorAll(".showcase a");
+  let link = document.querySelectorAll(
+    ".showcase .elementor-post__thumbnail__link, .showcase .elementor-post__title"
+  );
   link.forEach((item) => {
     item.removeAttribute("href");
   });
