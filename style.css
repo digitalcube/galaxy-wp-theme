@@ -89,7 +89,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   --font-size-2: 0.75rem;
   --font-size-3: 0.88rem;
   --font-size-4: 1rem;
-  --font-size-6: 1.38rem;
   --font-size-5: 1.12rem;
   --font-size-6: 1.38rem;
   --font-size-7: 1.88rem;
@@ -122,4 +121,10 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     15px 0px 8px rgba(0, 39, 108, 0.2);
   --shadow--bluedefault: 8px 0px 2px rgba(0, 39, 108, 0.2);
   --shadow--bluesm: 8px 0px 1px rgba(0, 39, 108, 0.1);
+
+  /* font-family */
+  --font-family-sans-serif: sofia-pro, sans-serif;
+  --font-family-serif: georgia, times, serif;
+  --font-family-system-sans-serif: sans-serif;
+  --font-family-system-serif: serif;
 }

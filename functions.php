@@ -29,3 +29,13 @@ function galaxy_enqueue_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'galaxy_enqueue_scripts', 20);
+
+/**
+ * Add body class
+ *
+ * @return void
+ */
+
+add_filter('body_class', function ($classes) {
+	return array_merge($classes, ['sans-serif', 'font-weight-regular']);
+});
