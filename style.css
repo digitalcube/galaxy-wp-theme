@@ -319,3 +319,7 @@ p {
     background-position: 0% 43%;
   }
 }
+
+[data-widget_type="theme-post-content.default"] a {
+  color: var(--shifter-purple-primary);
+}
