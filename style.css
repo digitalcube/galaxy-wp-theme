@@ -13,7 +13,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 */
 
 :root {
-  /* Color styles */
+  /* colors */
   --amimoto---black: rgba(2, 13, 32, 1);
   --amimoto---blue-primary: rgba(0, 76, 211, 1);
   --amimoto---blue-secondary: rgba(0, 168, 255, 1);
@@ -83,8 +83,8 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   --transparent: rgba(255, 255, 255, 0);
   --white: rgba(255, 255, 255, 1);
 
-  /* Text-size styles */
-  /* base size: font-size--4-regular (16px) */
+  /* font-size */
+  /* base size: --font-size-4 (16px) */
   --font-size-1: 0.62rem;
   --font-size-2: 0.75rem;
   --font-size-3: 0.88rem;
@@ -127,6 +127,63 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   --font-family-serif: georgia, times, serif;
   --font-family-system-sans-serif: sans-serif;
   --font-family-system-serif: serif;
+
+  /* spacing */
+  /* base size: --spacing-3 (16px) */
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 1rem;
+  --spacing-4: 1.5rem;
+  --spacing-5: 2rem;
+  --spacing-6: 2.5rem;
+  --spacing-7: 3rem;
+  --spacing-8: 3.5rem;
+  --spacing-9: 4rem;
+}
+
+.h-0 {
+  height: var(--spacing-0);
+}
+
+.h-1 {
+  height: var(--spacing-1);
+}
+
+.h-2 {
+  height: var(--spacing-2);
+}
+
+.h-3 {
+  height: var(--spacing-3);
+}
+
+.h-4 {
+  height: var(--spacing-4);
+}
+
+.h-5 {
+  height: var(--spacing-5);
+}
+
+.h-6 {
+  height: var(--spacing-6);
+}
+
+.h-6 {
+  height: var(--spacing-6);
+}
+
+.h-7 {
+  height: var(--spacing-7);
+}
+
+.h-8 {
+  height: var(--spacing-8);
+}
+
+.h-9 {
+  height: var(--spacing-9);
 }
 
 .font-family-sans-serif {
@@ -322,4 +379,12 @@ p {
 
 [data-widget_type="theme-post-content.default"] a {
   color: var(--shifter-purple-primary);
+}
+
+.elementor-tab-title a {
+  padding: 1rem 1.125rem;
+  color: var(--white);
+  font-size: var(--font-size-5);
+  background-color: var(--shifter-purple-primary);
+  border-radius: 0.25rem;
 }
