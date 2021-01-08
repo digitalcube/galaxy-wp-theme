@@ -8,9 +8,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // Features
 document.addEventListener("DOMContentLoaded", function (event) {
-  let link = document.querySelectorAll(
-    ".features .elementor-post__card a"
-  );
+  let link = document.querySelectorAll(".features .elementor-post__card a");
   link.forEach((item) => {
     item.removeAttribute("href");
   });
@@ -18,10 +16,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // Showcase
 document.addEventListener("DOMContentLoaded", function (event) {
-  let link = document.querySelectorAll(
-    ".showcase .elementor-post a"
-  );
+  let link = document.querySelectorAll(".showcase .elementor-post a");
   link.forEach((item) => {
     item.removeAttribute("href");
+
+    var e = item;
+    var d = document.createElement(null);
+    d.innerHTML = e.innerHTML;
+    e.parentNode.replaceChild(d, e);
   });
 });
