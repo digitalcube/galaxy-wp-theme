@@ -202,11 +202,35 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   font-family: var(--font-family-system-serif);
 }
 
-p {
+p,
+ul,
+pre {
   margin-top: 0;
   margin-bottom: 2.25rem;
   font-size: var(--font-size-6);
   line-height: 150%;
+}
+
+code {
+  line-height: 125%;
+  font-size: var(--font-size-4);
+}
+
+figure {
+  margin: 0;
+}
+
+.elementor-widget-theme-post-content .elementor-widget-container > * {
+  margin-top: 0;
+  margin-bottom: 2.25rem;
+  font-size: var(--font-size-6);
+  line-height: 150%;
+}
+
+.elementor-widget-theme-post-content .elementor-widget-container > figure img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 .galaxy-heading {
@@ -379,6 +403,34 @@ p {
 
 [data-widget_type="theme-post-content.default"] a {
   color: var(--shifter-purple-primary);
+}
+
+/* Elementor */
+
+.elementor-widget-tabs .elementor-tab-title {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.elementor-widget-tabs .elementor-tab-title.elementor-active a {
+  background-color: var(--shifter-purple-primary);
+  color: var(--white);
+}
+
+.elementor-widget-tabs .elementor-tab-title a {
+  background-color: var(--transparent);
+  box-shadow: inset 0px 0px 0px 1px var(--shifter-purple-400);
+  color: var(--shifter-purple-400);
+}
+
+.elementor-widget-tabs .elementor-tab-title:not(:last-of-type) a {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.elementor-widget-tabs .elementor-tab-title:not(:first-of-type) a {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .elementor-tab-title a {
