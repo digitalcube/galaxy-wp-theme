@@ -41,18 +41,25 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // Post Tags
 document.addEventListener("DOMContentLoaded", function (event) {
-  let link = document.querySelectorAll(".post-tags a");
+  const link = document.querySelectorAll(".post-tags a");
   link.forEach((item) => {
-    
     // Remove links
     item.removeAttribute("href");
     var e = item;
     var d = document.createElement("span");
     d.innerHTML = e.innerHTML;
     e.parentNode.replaceChild(d, e);
+  });
 
-    // Add classes
-    d.classList.add("font-weight-strong", "font-size-4", "text-shifter-gray-500", "text-transform-lowercase");
+  // Add classes
+  const tag = document.querySelectorAll(".post-tags");
+  tag.forEach((item) => {
+    item.classList.add(
+      "font-weight-strong",
+      "font-size-4",
+      "text-shifter-gray-500",
+      "text-transform-lowercase"
+    );
   });
 });
 
