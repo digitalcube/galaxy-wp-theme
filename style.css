@@ -212,6 +212,10 @@ cite {
   line-height: 150%;
 }
 
+a {
+  color: var(--shifter-purple-primary);
+}
+
 code {
   line-height: 125%;
   font-size: var(--font-size-4);
@@ -219,6 +223,24 @@ code {
 
 figure {
   margin: 0;
+}
+
+/* text-transform */
+
+.text-transform-capitalize {
+  text-transform: capitalize;
+}
+
+.text-transform-lowercase {
+  text-transform: lowercase;
+}
+
+.text-transform-uppercase {
+  text-transform: uppercase;
+}
+
+.text-transform-none {
+  text-transform: none;
 }
 
 .elementor-widget-theme-post-content .elementor-widget-container > * {
