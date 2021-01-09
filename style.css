@@ -204,7 +204,8 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 
 p,
 ul,
-pre {
+pre,
+cite {
   margin-top: 0;
   margin-bottom: 2.25rem;
   font-size: var(--font-size-6);
