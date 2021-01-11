@@ -128,6 +128,9 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   --font-family-system-sans-serif: sans-serif;
   --font-family-system-serif: serif;
 
+  /* font-weight */
+  --font-weight-strong: 700;
+
   /* spacing */
   /* base size: --spacing-3 (16px) */
   --spacing-0: 0;
@@ -241,13 +244,6 @@ figure {
 
 .text-transform-none {
   text-transform: none;
-}
-
-.elementor-widget-theme-post-content .elementor-widget-container > * {
-  margin-top: 0;
-  margin-bottom: 2.25rem;
-  font-size: var(--font-size-6);
-  line-height: 150%;
 }
 
 .elementor-widget-theme-post-content .elementor-widget-container > figure img {
@@ -442,8 +438,17 @@ figure {
 
 .elementor-widget-tabs .elementor-tab-title a {
   background-color: var(--transparent);
-  box-shadow: inset 0px 0px 0px 1px var(--shifter-purple-400);
-  color: var(--shifter-purple-400);
+  box-shadow: inset 0px 0px 0px 1px var(--shifter-purple-500);
+  color: var(--shifter-purple-500);
+  transition: all 0.3s;
+}
+
+.elementor-widget-tabs .elementor-tab-title.elementor-active a:hover {
+  background-color: var(--shifter-purple-500);
+}
+
+.elementor-widget-tabs .elementor-tab-title a:hover {
+  background-color: var(--shifter-purple-100);
 }
 
 .elementor-widget-tabs .elementor-tab-title:not(:last-of-type) a {
@@ -463,3 +468,17 @@ figure {
   background-color: var(--shifter-purple-primary);
   border-radius: 0.25rem;
 }
+
+.elementor-button {
+  background-color: var(--shifter-purple-primary);
+  color: var(--white);
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-strong);
+  padding: 14px 16px;
+}
+
+.elementor-button:hover {
+  background-color: var(--shifter-purple-600);
+}
+
+/* Algolia */
