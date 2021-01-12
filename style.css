@@ -387,8 +387,7 @@ figure {
   background-image: linear-gradient(
     45deg,
     var(--shifter-magenta-primary) 0%,
-    var(--shifter-purple-primary) 35%,
-    var(--shifter-purple-300) 66%,
+    var(--shifter-purple-primary) 50%,
     var(--shifter-purple-300) 100%
   );
   -webkit-background-clip: text;
