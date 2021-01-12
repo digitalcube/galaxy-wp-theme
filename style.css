@@ -475,6 +475,7 @@ figure {
   font-size: var(--font-size-4);
   font-weight: var(--font-weight-strong);
   padding: 14px 16px;
+  border-radius: 0.25rem;
 }
 
 .elementor-button:hover {
