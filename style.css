@@ -419,11 +419,41 @@ figure {
   }
 }
 
-[data-widget_type="theme-post-content.default"] a {
-  color: var(--shifter-purple-primary);
+/* overflow */
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+/* galaxy-table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: var(--white);
+  border-radius: 4px;
+}
+
+td,
+th {
+  border-bottom: 1px solid var(--shifter-gray-400);
+  padding: var(--spacing-2);
+}
+
+tr > td:first-of-type {
+  text-align: left;
+  width: 20%;
+}
+
+tr:last-of-type td,
+tr:last-of-type th {
+  border-bottom: none;
 }
 
 /* Elementor */
+
+[data-widget_type="theme-post-content.default"] a {
+  color: var(--shifter-purple-primary);
+}
 
 .elementor-widget-tabs .elementor-tab-title {
   padding-left: 0;
