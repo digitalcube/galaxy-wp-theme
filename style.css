@@ -442,7 +442,7 @@ td,
 th,
 .tablepress td,
 .tablepress th {
-  border-bottom: 1px solid var(--shifter-gray-500);
+  border-bottom: 1px solid var(--shifter-gray-200);
   padding: var(--spacing-2);
   text-align: center;
 }
