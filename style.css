@@ -441,6 +441,7 @@ th {
 
 tr > td:first-of-type {
   text-align: left;
+  color: var(--shifter-purple-700);
   width: 20%;
 }
 
