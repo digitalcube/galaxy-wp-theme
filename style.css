@@ -462,7 +462,12 @@ tr:last-of-type th {
 }
 
 .elementor-widget-tabs .elementor-tab-title.elementor-active a {
-  background-color: var(--shifter-purple-primary);
+  background-color: var(--shifter-purple-500);
+  color: var(--white);
+}
+
+.elementor-widget-tabs .elementor-tab-title.elementor-active a:hover {
+  background-color: var(--shifter-purple-500);
   color: var(--white);
 }
 
@@ -471,10 +476,6 @@ tr:last-of-type th {
   box-shadow: inset 0px 0px 0px 1px var(--shifter-purple-500);
   color: var(--shifter-purple-500);
   transition: all 0.3s;
-}
-
-.elementor-widget-tabs .elementor-tab-title.elementor-active a:hover {
-  background-color: var(--shifter-purple-500);
 }
 
 .elementor-widget-tabs .elementor-tab-title a:hover {
