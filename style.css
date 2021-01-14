@@ -424,6 +424,11 @@ figure {
   overflow-x: auto;
 }
 
+/* text-align */
+.text-align-center {
+  text-align: center;
+}
+
 /* galaxy-table */
 
 table {
@@ -434,9 +439,20 @@ table {
 }
 
 td,
-th {
-  border-bottom: 1px solid var(--shifter-gray-400);
+th,
+.tablepress td,
+.tablepress th {
+  border-bottom: 1px solid var(--shifter-gray-500);
   padding: var(--spacing-2);
+  text-align: center;
+}
+
+table {
+  font-size: var(--font-size-4);
+}
+
+table i {
+  color: var(--shifter-purple-primary);
 }
 
 tr > td:first-of-type {
