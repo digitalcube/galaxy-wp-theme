@@ -472,6 +472,28 @@ tr:last-of-type th {
   color: var(--shifter-purple-primary);
 }
 
+/* .page-numbers.current:after {
+  content: "";
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: var(--shifter-purple-200);
+  position: absolute;
+  top: 0;
+  left: -8px;
+  z-index: -1;
+} */
+
+.page-numbers.current {
+  color: var(--shifter-purple-700);
+  height: var(--spacing-5);
+  width: var(--spacing-5);
+  border-radius: 50%;
+  display: inline-block;
+  line-height: var(--spacing-5);
+  background-color: var(--shifter-purple-200);
+}
+
 .elementor-widget-tabs .elementor-tab-title {
   padding-left: 0;
   padding-right: 0;

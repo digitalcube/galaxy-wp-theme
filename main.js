@@ -39,6 +39,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
   });
 });
 
+// Team
+document.addEventListener("DOMContentLoaded", function (event) {
+  let link = document.querySelectorAll(".team .elementor-post a");
+  link.forEach((item) => {
+    item.removeAttribute("href");
+  });
+});
+
 // Post Tags
 document.addEventListener("DOMContentLoaded", function (event) {
   const link = document.querySelectorAll(".post-tags a");
