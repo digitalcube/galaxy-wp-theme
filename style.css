@@ -494,6 +494,28 @@ tr:last-of-type th {
   background-color: var(--shifter-purple-200);
 }
 
+.elementor-post-navigation .elementor-post-navigation__link a {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: var(--font-size-6);
+  border: 2px solid var(--shifter-purple-primary);
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.elementor-post-navigation__link__next {
+  margin-left: auto;
+}
+
+.elementor-post-navigation .elementor-post-navigation__link a:hover {
+  background-color: var(--shifter-purple-primary);
+  color: var(--white);
+}
+
+.elementor-post-navigation .elementor-post-navigation__separator-wrapper {
+  margin: 0 var(--spacing-2);
+}
+
 .elementor-widget-tabs .elementor-tab-title {
   padding-left: 0;
   padding-right: 0;
