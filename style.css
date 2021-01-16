@@ -507,13 +507,8 @@ tr:last-of-type th {
   margin-left: auto;
 }
 
-.elementor-post-navigation .elementor-post-navigation__link a:hover {
-  background-color: var(--shifter-purple-primary);
-  color: var(--white);
-}
-
-.elementor-post-navigation .elementor-post-navigation__separator-wrapper {
-  margin: 0 var(--spacing-2);
+.elementor-post-navigation__prev.elementor-post-navigation__link {
+  margin-right: var(--spacing-4);
 }
 
 .elementor-widget-tabs .elementor-tab-title {
