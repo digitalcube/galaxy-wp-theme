@@ -568,4 +568,37 @@ tr:last-of-type th {
   background-color: var(--shifter-purple-600);
 }
 
+.mobile-nav a.elementor-item {
+  border-bottom: 2px solid var(--shifter-purple-400);
+}
+
+/* Elementor Logos */
+
+.elementor-image-carousel-wrapper.swiper-container::before,
+.elementor-image-carousel-wrapper.swiper-container::after {
+  content: "";
+  height: 100%;
+  width: 10%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+}
+
+.elementor-image-carousel-wrapper.swiper-container::before {
+  background-image: linear-gradient(
+    -90deg,
+    rgba(251, 251, 251, 0) 0%,
+    rgb(251, 251, 251) 90%
+  );
+}
+
+.elementor-image-carousel-wrapper.swiper-container::after {
+  right: 0;
+  background-image: linear-gradient(
+    90deg,
+    rgba(251, 251, 251, 0) 0%,
+    rgb(251, 251, 251) 90%
+  );
+}
+
 /* Algolia */

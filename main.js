@@ -47,6 +47,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
   });
 });
 
+// Popup
+document.addEventListener("DOMContentLoaded", function (event) {
+  const close = document.querySelectorAll(".close-popup");
+  jQuery(document).on("click", ".close-popup", function (event) {
+    elementorProFrontend.modules.popup.closePopup({}, event);
+  });
+});
+
 // Post Tags
 document.addEventListener("DOMContentLoaded", function (event) {
   const link = document.querySelectorAll(".post-tags a");
