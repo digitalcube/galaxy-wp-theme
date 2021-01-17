@@ -555,6 +555,24 @@ tr:last-of-type th {
   border-radius: 0.25rem;
 }
 
+.elementor-tab-mobile-title {
+  background-color: var(--transparent);
+  box-shadow: inset 0px 0px 0px 2px var(--shifter-purple-primary);
+  padding: 14px 16px;
+  font-weight: var(--font-weight-strong);
+  border-radius: 0.25rem;
+  color: var(--shifter-purple-primary);
+  text-align: center;
+  display: block;
+  margin: 0 10px;
+  margin-bottom: var(--spacing-2);
+}
+
+.elementor-tab-title.elementor-tab-mobile-title.elementor-active {
+  background-color: var(--shifter-purple-primary);
+  color: var(--white);
+}
+
 .elementor-button {
   background-color: var(--shifter-purple-primary);
   color: var(--white);
