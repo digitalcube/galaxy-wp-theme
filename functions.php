@@ -20,7 +20,7 @@ function galaxy_enqueue_scripts()
 		'0.0.0'
 	);
 
-	wp_enqueue_style('normalize-css', 'https://cdn.jsdelivr.net/npm/normalize.css@latest/normalize.css', [], 'latest', true);
+	wp_enqueue_style('normalize-css', 'https://cdn.jsdelivr.net/npm/normalize.css@latest/normalize.css', [], 'latest');
 
 	wp_enqueue_script('galaxy-wp-theme-scripts', get_theme_file_uri() . '/main.js', array(), '0.0.0', true);
 
