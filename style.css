@@ -704,6 +704,11 @@ input:focus {
   border-color: var(--shifter-purple-primary);
 }
 
+input:hover {
+  outline: none;
+  border-color: var(--shifter-purple-900);
+}
+
 .ais-SearchBox-submit svg,
 .ais-SearchBox-reset svg,
 .ais-SearchBox-loadingIndicator svg {
