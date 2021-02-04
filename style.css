@@ -746,3 +746,9 @@ input:focus {
 .ais-Stats {
   font-size: var(--font-size-6);
 }
+
+.ais-Hits-item mark {
+  background-color: none;
+  text-decoration: underline;
+  color: inherit;
+}
