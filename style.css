@@ -704,40 +704,38 @@ input:focus {
   border-color: var(--shifter-purple-primary);
 }
 
-button.ais-SearchBox-submit svg,
-button.ais-SearchBox-reset svg {
+.ais-SearchBox-submit svg,
+.ais-SearchBox-reset svg,
+.ais-SearchBox-loadingIndicator svg {
   height: var(--font-size-3);
   width: var(--font-size-3);
-}
-
-button.ais-SearchBox-submit svg,
-button.ais-SearchBox-reset svg {
-  /* height: .5rem; */
-  /* width: 1rem; */
 }
 
 .ais-SearchBox svg path {
   fill: var(--shifter-gray-300);
 }
 
-button.ais-SearchBox-reset,
-button.ais-SearchBox-submit {
+.ais-SearchBox-reset,
+.ais-SearchBox-submit,
+.ais-SearchBox-loadingIndicator {
   position: absolute;
   height: 100%;
   top: 0;
   align-items: center;
+  display: flex;
 }
 
-button.ais-SearchBox-submit {
+.ais-SearchBox-submit {
   left: var(--spacing-2);
   display: flex;
 }
 
-button.ais-SearchBox-reset {
+.ais-SearchBox-reset,
+.ais-SearchBox-loadingIndicator {
   right: var(--spacing-2);
 }
 
-button.ais-SearchBox-reset [hidden="true"] {
+.ais-SearchBox-reset [hidden="true"] {
   display: none;
 }
 
