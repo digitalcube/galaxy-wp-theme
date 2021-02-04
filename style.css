@@ -747,7 +747,7 @@ input:focus {
   font-size: var(--font-size-6);
 }
 
-.ais-Hits-item mark {
+mark {
   background-color: none;
   text-decoration: underline;
   color: inherit;
