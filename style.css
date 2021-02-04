@@ -688,14 +688,14 @@ tr:last-of-type th {
 
 .ais-SearchBox input {
   width: 100%;
-  background-color: var(--shifter-gray-100);
-  color: var(--shifter-gray-400);
+  background-color: var(--white);
+  color: var(--shifter-gray-600);
   padding: var(--spacing-2) var(--spacing-2) var(--spacing-2) var(--spacing-5);
   border-radius: var(--spacing-1);
-  border-color: var(--shifter-gray-400);
+  border-color: var(--shifter-gray-300);
   border-width: 2px;
   border-style: solid;
-  font-size: var(--font-size-4);
+  font-size: var(--font-size-3);
   transition: all 0.3s;
 }
 
