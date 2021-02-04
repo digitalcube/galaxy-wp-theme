@@ -712,8 +712,12 @@ button.ais-SearchBox-reset svg {
 
 button.ais-SearchBox-submit svg,
 button.ais-SearchBox-reset svg {
-  height: var(--font-size-3);
-  width: var(--font-size-3);
+  /* height: .5rem; */
+  /* width: 1rem; */
+}
+
+.ais-SearchBox svg path {
+  fill: var(--shifter-gray-300);
 }
 
 button.ais-SearchBox-reset,
