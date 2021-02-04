@@ -748,7 +748,7 @@ input:focus {
 }
 
 mark {
-  background-color: none;
+  background-color: transparent;
   text-decoration: underline;
   color: inherit;
 }
