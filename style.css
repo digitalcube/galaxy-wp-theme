@@ -703,11 +703,13 @@ tr:last-of-type th {
 input:focus {
   outline: none;
   box-shadow: inset 0 0 0 1px var(--shifter-purple-primary);
+  border-color: var(--shifter-purple-primary);
 }
 
 input:hover {
   outline: none;
   box-shadow: inset 0 0 0 1px var(--shifter-purple-900);
+  border-color: var(--shifter-purple-900);
 }
 
 input:hover
