@@ -701,13 +701,15 @@ tr:last-of-type th {
 
 input:focus {
   outline: none;
-  border-color: var(--shifter-purple-primary);
+  box-shadow: inset 0 0 0 2px var(--shifter-purple-primary);
 }
 
 input:hover {
   outline: none;
-  border-color: var(--shifter-purple-900);
+  box-shadow: inset 0 0 0 2px var(--shifter-purple-900);
 }
+
+input:hover
 
 .ais-SearchBox-submit svg,
 .ais-SearchBox-reset svg,
