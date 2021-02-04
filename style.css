@@ -693,7 +693,7 @@ tr:last-of-type th {
   padding: var(--spacing-2) var(--spacing-2) var(--spacing-2) var(--spacing-5);
   border-radius: var(--spacing-1);
   border-color: var(--shifter-gray-300);
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   font-size: var(--font-size-3);
   transition: all 0.3s;
