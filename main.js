@@ -14,6 +14,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
   });
 });
 
+// Pricing
+document.addEventListener("DOMContentLoaded", function (event) {
+  console.log('hello world');
+  let link = document.querySelectorAll(".pricing .elementor-post__card a");
+  link.forEach((item) => {
+    item.removeAttribute("href");
+  });
+});
+
 // Showcase
 document.addEventListener("DOMContentLoaded", function (event) {
   let link = document.querySelectorAll(".showcase .elementor-post a");
