@@ -208,7 +208,8 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 p,
 ul,
 pre,
-cite {
+cite,
+ol {
   margin-top: 0;
   margin-bottom: 2.25rem;
   font-size: var(--font-size-6);
@@ -712,9 +713,7 @@ input:hover {
   border-color: var(--shifter-purple-900);
 }
 
-input:hover
-
-.ais-SearchBox-submit svg,
+input:hover .ais-SearchBox-submit svg,
 .ais-SearchBox-reset svg,
 .ais-SearchBox-loadingIndicator svg {
   height: var(--font-size-3);
