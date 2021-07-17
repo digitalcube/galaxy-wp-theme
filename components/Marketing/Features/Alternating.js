@@ -5,8 +5,8 @@ export const Alternating = () => {
     <div className='bg-white'>
       <div className='max-w-7xl mx-auto pt-16 px-4 sm:py-24 sm:px-6 lg:px-8'>
         <div className='text-center'>
-          <h2 className='mt-1 text-3xl leading-8 font-bold text-purple-primary sm:text-4xl'>
-            Core Benefit of static WordPress 3 (Easy installation)
+          <h2 className='mt-1 leading-8 font-bold text-purple-primary text-3xl sm:text-5xl'>
+            Third core benefit is Easy Installation
           </h2>
           <p className='mt-4 max-w-2xl text-xl text-purple-800 lg:mx-auto'>
             Start building for free, then add a site plan to go live. Account
@@ -48,9 +48,10 @@ export const Alternating = () => {
                 <blockquote>
                   <div>
                     <p className='text-base text-purple-800'>
-                      &ldquo;Call to Action Customer Showcase velit quis eros eget rhoncus lacus ultrices
-                      sed diam. Sit orci risus aenean curabitur donec aliquet.
-                      Mi venenatis in euismod ut.&rdquo;
+                      &ldquo;Call to Action Customer Showcase velit quis eros
+                      eget rhoncus lacus ultrices sed diam. Sit orci risus
+                      aenean curabitur donec aliquet. Mi venenatis in euismod
+                      ut.&rdquo;
                     </p>
                   </div>
                   <footer className='mt-3'>
@@ -155,9 +156,10 @@ export const Alternating = () => {
                 <blockquote>
                   <div>
                     <p className='text-base text-purple-800'>
-                      &ldquo;Call to Action Customer Showcase velit quis eros eget rhoncus lacus ultrices
-                      sed diam. Sit orci risus aenean curabitur donec aliquet.
-                      Mi venenatis in euismod ut.&rdquo;
+                      &ldquo;Call to Action Customer Showcase velit quis eros
+                      eget rhoncus lacus ultrices sed diam. Sit orci risus
+                      aenean curabitur donec aliquet. Mi venenatis in euismod
+                      ut.&rdquo;
                     </p>
                   </div>
                   <footer className='mt-3'>

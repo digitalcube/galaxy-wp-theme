@@ -37,8 +37,8 @@ export const CenteredGrid = () => {
     <div className='py-24 bg-white'>
       <div className='max-w-3xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='lg:text-center'>
-          <h2 className='text-3xl leading-8 font-bold text-purple-primary sm:text-4xl'>
-            Core Benefit of static WordPress 2 (Security built in)
+          <h2 className='leading-8 font-bold text-purple-primary text-3xl sm:text-5xl'>
+            Second core benefit is Security Built-in
           </h2>
           <p className='mt-4 max-w-2xl text-xl text-purple-800 lg:mx-auto'>
             Create a new site or migrate an existing WordPress site in minutes.​
