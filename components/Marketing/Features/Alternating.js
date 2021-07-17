@@ -5,7 +5,7 @@ export const Alternating = () => {
     <div className='bg-white'>
       <div className='max-w-7xl mx-auto pt-16 px-4 sm:py-24 sm:px-6 lg:px-8'>
         <div className='text-center'>
-          <h2 className='mt-1 text-3xl leading-8 font-bold tracking-tight text-purple-primary sm:text-4xl'>
+          <h2 className='mt-1 text-3xl leading-8 font-bold text-purple-primary sm:text-4xl'>
             Core Benefit of static WordPress 3 (Easy installation)
           </h2>
           <p className='mt-4 max-w-2xl text-xl text-purple-800 lg:mx-auto'>
@@ -20,18 +20,15 @@ export const Alternating = () => {
             <div className='px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0'>
               <div>
                 <div>
-                  <span className='h-12 w-12 rounded-md flex items-center justify-center bg-purple-600'>
-                    <InboxIcon
-                      className='h-6 w-6 text-white'
-                      aria-hidden='true'
-                    />
+                  <span className='flex'>
+                    <img src='/collabrate.svg' alt='' className='h-24 w-24' />
                   </span>
                 </div>
                 <div className='mt-6'>
-                  <h2 className='text-3xl font-bold tracking-tight text-purple-primary'>
-                    Stay on top of customer support
+                  <h2 className='text-3xl font-bold text-purple-primary'>
+                    How Shifter benefits businesses
                   </h2>
-                  <p className='mt-4 text-lg text-gray-500'>
+                  <p className='mt-4 text-lg text-purple-800'>
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
                     iaculis bibendum malesuada faucibus lacinia porttitor.
                     Pulvinar laoreet sagittis viverra duis. In venenatis sem
@@ -50,8 +47,8 @@ export const Alternating = () => {
               <div className='mt-8 border-t border-gray-200 pt-6'>
                 <blockquote>
                   <div>
-                    <p className='text-base text-gray-500'>
-                      &ldquo;Cras velit quis eros eget rhoncus lacus ultrices
+                    <p className='text-base text-purple-800'>
+                      &ldquo;Call to Action Customer Showcase velit quis eros eget rhoncus lacus ultrices
                       sed diam. Sit orci risus aenean curabitur donec aliquet.
                       Mi venenatis in euismod ut.&rdquo;
                     </p>
@@ -89,18 +86,15 @@ export const Alternating = () => {
             <div className='px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2'>
               <div>
                 <div>
-                  <span className='h-12 w-12 rounded-md flex items-center justify-center bg-purple-600'>
-                    <SparklesIcon
-                      className='h-6 w-6 text-white'
-                      aria-hidden='true'
-                    />
+                  <span className='flex'>
+                    <img src='/easy-install.svg' alt='' className='h-24 w-24' />
                   </span>
                 </div>
                 <div className='mt-6'>
-                  <h2 className='text-3xl font-bold tracking-tight text-purple-primary'>
-                    Better understand your customers
+                  <h2 className='text-3xl font-bold text-purple-primary'>
+                    How Shifter benefits no code hustlers
                   </h2>
-                  <p className='mt-4 text-lg text-gray-500'>
+                  <p className='mt-4 text-lg text-purple-800'>
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
                     iaculis bibendum malesuada faucibus lacinia porttitor.
                     Pulvinar laoreet sagittis viverra duis. In venenatis sem
@@ -123,6 +117,72 @@ export const Alternating = () => {
                   className='w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none'
                   src='https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg'
                   alt='Customer profile user interface'
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='relative'>
+          <div className='lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24'>
+            <div className='px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0'>
+              <div>
+                <div>
+                  <span className='flex'>
+                    <img src='/collabrate.svg' alt='' className='h-24 w-24' />
+                  </span>
+                </div>
+                <div className='mt-6'>
+                  <h2 className='text-3xl font-bold text-purple-primary'>
+                    How this benefits developers
+                  </h2>
+                  <p className='mt-4 text-lg text-purple-800'>
+                    Semper curabitur ullamcorper posuere nunc sed. Ornare
+                    iaculis bibendum malesuada faucibus lacinia porttitor.
+                    Pulvinar laoreet sagittis viverra duis. In venenatis sem
+                    arcu pretium pharetra at. Lectus viverra dui tellus ornare
+                    pharetra.
+                  </p>
+                  <div className='mt-6'>
+                    <a
+                      href='#'
+                      className='inline-flex px-4 py-2 border border-transparent text-base font-bold rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700'>
+                      Get started
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className='mt-8 border-t border-gray-200 pt-6'>
+                <blockquote>
+                  <div>
+                    <p className='text-base text-purple-800'>
+                      &ldquo;Call to Action Customer Showcase velit quis eros eget rhoncus lacus ultrices
+                      sed diam. Sit orci risus aenean curabitur donec aliquet.
+                      Mi venenatis in euismod ut.&rdquo;
+                    </p>
+                  </div>
+                  <footer className='mt-3'>
+                    <div className='flex items-center space-x-3'>
+                      <div className='flex-shrink-0'>
+                        <img
+                          className='h-6 w-6 rounded-full'
+                          src='https://avatars.githubusercontent.com/u/1094306?v=4'
+                          alt=''
+                        />
+                      </div>
+                      <div className='text-base font-bold text-purple-800'>
+                        Takashi Kitajima, Creator of Snow Monkey
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            <div className='mt-12 sm:mt-16 lg:mt-0'>
+              <div className='pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full'>
+                <img
+                  className='w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none'
+                  src='https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg'
+                  alt='Inbox user interface'
                 />
               </div>
             </div>

@@ -169,6 +169,7 @@ export default function Example() {
       <Head>
         <title>Shifter</title>
         <link rel='icon' href='/favicon.ico' />
+        <link rel="stylesheet" href="https://use.typekit.net/rrt0shs.css" />
       </Head>
 
       <main>

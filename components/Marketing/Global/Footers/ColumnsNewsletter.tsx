@@ -91,16 +91,16 @@ const navigation = {
 
 export const ColumnsNewsletter = () => {
   return (
-    <footer className='bg-purple-800' aria-labelledby='footer-heading'>
+    <footer className='bg-white' aria-labelledby='footer-heading'>
       <h2 id='footer-heading' className='sr-only'>
         Footer
       </h2>
-      <div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 border-purple-700 border-t'>
+      <div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8'>
         <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
           <div className='grid grid-cols-2 gap-8 xl:col-span-2'>
             <div className='md:grid md:grid-cols-2 md:gap-8'>
               <div>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
+                <h3 className='text-lg font-bold text-purple-primary tracking-wider uppercase'>
                   Solutions
                 </h3>
                 <ul className='mt-4 space-y-4'>
@@ -108,7 +108,7 @@ export const ColumnsNewsletter = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className='text-base text-gray-300 hover:text-white'>
+                        className='text-base text-purple-primary hover:text-purple-800'>
                         {item.name}
                       </a>
                     </li>
@@ -116,7 +116,7 @@ export const ColumnsNewsletter = () => {
                 </ul>
               </div>
               <div className='mt-12 md:mt-0'>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
+                <h3 className='text-lg font-bold text-purple-primary tracking-wider uppercase'>
                   Support
                 </h3>
                 <ul className='mt-4 space-y-4'>
@@ -124,7 +124,7 @@ export const ColumnsNewsletter = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className='text-base text-gray-300 hover:text-white'>
+                        className='text-base text-purple-primary hover:text-purple-800'>
                         {item.name}
                       </a>
                     </li>
@@ -134,7 +134,7 @@ export const ColumnsNewsletter = () => {
             </div>
             <div className='md:grid md:grid-cols-2 md:gap-8'>
               <div>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
+                <h3 className='text-lg font-bold text-purple-primary tracking-wider uppercase'>
                   Company
                 </h3>
                 <ul className='mt-4 space-y-4'>
@@ -142,7 +142,7 @@ export const ColumnsNewsletter = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className='text-base text-gray-300 hover:text-white'>
+                        className='text-base text-purple-primary hover:text-purple-800'>
                         {item.name}
                       </a>
                     </li>
@@ -150,7 +150,7 @@ export const ColumnsNewsletter = () => {
                 </ul>
               </div>
               <div className='mt-12 md:mt-0'>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
+                <h3 className='text-lg font-bold text-purple-primary tracking-wider uppercase'>
                   Legal
                 </h3>
                 <ul className='mt-4 space-y-4'>
@@ -158,7 +158,7 @@ export const ColumnsNewsletter = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className='text-base text-gray-300 hover:text-white'>
+                        className='text-base text-purple-primary hover:text-purple-primary-800'>
                         {item.name}
                       </a>
                     </li>
@@ -168,7 +168,7 @@ export const ColumnsNewsletter = () => {
             </div>
           </div>
           <div className='mt-8 xl:mt-0'>
-            <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
+            <h3 className='text-lg font-bold text-purple-primary tracking-wider uppercase'>
               Subscribe to our newsletter
             </h3>
             <p className='mt-4 text-base text-gray-300'>
@@ -191,7 +191,7 @@ export const ColumnsNewsletter = () => {
               <div className='mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0'>
                 <button
                   type='submit'
-                  className='w-full bg-indigo-500 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500'>
+                  className='block w-full py-3 px-4 rounded-md shadow bg-purple-500 text-white font-bold hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-focus focus:ring-offset-purple-800'>
                   Subscribe
                 </button>
               </div>

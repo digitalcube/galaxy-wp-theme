@@ -41,7 +41,7 @@ export const GridIcons = () => {
                         />
                       </span>
                     </div>
-                    <h3 className='mt-8 text-lg font-bold text-gray-900 tracking-tight'>
+                    <h3 className='mt-8 text-lg font-bold text-gray-900 '>
                       {feature.name}
                     </h3>
                     <p className='mt-5 text-base text-gray-500'>

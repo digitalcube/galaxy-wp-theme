@@ -8,13 +8,13 @@ const posts = [
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+      "https://cdn.getshifter.co/caa65008efb706a8bfc6f7e4045d6a018420c3df/uploads/2020/11/6blog-image-Host-Test-1-300x183.png",
     readingTime: "6 min",
     author: {
       name: "Roel Aufderehar",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "https://cdn.getshifter.co/caa65008efb706a8bfc6f7e4045d6a018420c3df/uploads/2021/04/pay-as-you-go-featuredimage-300x183.png",
     },
   },
   {
@@ -26,13 +26,13 @@ const posts = [
     date: "Mar 10, 2020",
     datetime: "2020-03-10",
     imageUrl:
-      "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+      "https://cdn.getshifter.co/caa65008efb706a8bfc6f7e4045d6a018420c3df/uploads/2021/04/pay-as-you-go-featuredimage-300x183.png",
     readingTime: "4 min",
     author: {
       name: "Brenna Goyette",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "https://cdn.getshifter.co/caa65008efb706a8bfc6f7e4045d6a018420c3df/uploads/2021/04/pay-as-you-go-featuredimage-300x183.png",
     },
   },
   {
@@ -44,13 +44,13 @@ const posts = [
     date: "Feb 12, 2020",
     datetime: "2020-02-12",
     imageUrl:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+      "https://cdn.getshifter.co/caa65008efb706a8bfc6f7e4045d6a018420c3df/uploads/2021/03/blogimage_usecase_MHIblog-image-300x183.png",
     readingTime: "11 min",
     author: {
       name: "Daniela Metz",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "https://cdn.getshifter.co/caa65008efb706a8bfc6f7e4045d6a018420c3df/uploads/2020/11/6blog-image-Host-Test-1-300x183.png",
     },
   },
 ];
@@ -63,10 +63,10 @@ export const Cards = () => {
       </div>
       <div className='relative max-w-7xl mx-auto'>
         <div className='text-center'>
-          <h2 className='text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl'>
+          <h2 className='text-3xl font-bold text-purple-primary sm:text-4xl'>
             From the blog
           </h2>
-          <p className='mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4'>
+          <p className='mt-3 max-w-2xl mx-auto text-xl text-purple-800 sm:mt-4'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
             libero labore natus atque, ducimus sed.
           </p>
@@ -91,7 +91,7 @@ export const Cards = () => {
                     </a>
                   </p>
                   <a href={post.href} className='block mt-2'>
-                    <p className='text-xl font-semibold text-gray-900'>
+                    <p className='text-xl font-bold text-gray-900'>
                       {post.title}
                     </p>
                     <p className='mt-3 text-base text-gray-500'>
