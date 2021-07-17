@@ -1,0 +1,17 @@
+{
+  "projectName": "galaxywptheme",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "./",
+      "DistributionDir": "out",
+      "BuildCommand": "yarn run build",
+      "StartCommand": "yarn run start"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}

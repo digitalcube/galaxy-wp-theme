@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-galaxywptheme-dev-153552-authRole",
+            "UnauthRoleArn": "arn:aws:iam::027273742350:role/amplify-galaxywptheme-dev-153552-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::027273742350:role/amplify-galaxywptheme-dev-153552-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-galaxywptheme-dev-153552-deployment",
+            "UnauthRoleName": "amplify-galaxywptheme-dev-153552-unauthRole",
+            "StackName": "amplify-galaxywptheme-dev-153552",
+            "StackId": "arn:aws:cloudformation:us-east-1:027273742350:stack/amplify-galaxywptheme-dev-153552/3514add0-e736-11eb-ba7c-12dace8e8b83",
+            "AmplifyAppId": "d23xfmkvbczzin"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d23xfmkvbczzin",
+                    "type": "cicd"
+                }
+            }
+        }
+    }
+}
