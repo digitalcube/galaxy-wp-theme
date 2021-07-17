@@ -16,11 +16,13 @@ export const LgScreenshot = () => {
           </p>
         </div>
         <div className='py-12'>
-          <img
-            className='rounded-lg shadow ring-1 ring-black ring-opacity-5'
-            src='https://tailwindui.com/img/component-images/top-nav-with-multi-column-layout-screenshot.jpg'
-            alt=''
-          />
+          <div className='aspect-w-16 aspect-h-9'>
+            <iframe
+              src='https://player.vimeo.com/video/365886635?title=0&byline=0&portrait=0&muted=1&autoplay=1&autopause=0&controls=0&loop=1&app_id=122963'
+              frameBorder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowFullScreen></iframe>
+          </div>
         </div>
       </div>
     </div>
