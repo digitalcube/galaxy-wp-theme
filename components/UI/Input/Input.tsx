@@ -12,6 +12,7 @@ export const Input: FC<Input> = ({
   placeholder,
   variants,
   href,
+  id,
   ...props
 }: Input) => {
   const classNames = css({
@@ -39,6 +40,7 @@ export type Input = {
   href?: string;
   type?: string;
   placeholder?: string;
+  id?: string;
 };
 
 Input.defaultProps = {
