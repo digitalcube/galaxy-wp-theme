@@ -63,18 +63,7 @@ export const SimpleCentered = () => {
                 </div>
                 <div className='mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center'>
                   <div className='text-size-6 font-bold text-white'>
-                    Sarah Gooding
-                  </div>
-
-                  <svg
-                    className='hidden md:block mx-1 h-5 w-5 text-magenta-dark'
-                    fill='currentColor'
-                    viewBox='0 0 20 20'>
-                    <path d='M11 0h3L9 20H6l5-20z' />
-                  </svg>
-
-                  <div className='text-size-6 font-bold text-white'>
-                    WP Tavern
+                    Sarah Gooding, WP Tavern
                   </div>
                 </div>
               </div>

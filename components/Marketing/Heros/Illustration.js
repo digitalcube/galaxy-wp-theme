@@ -26,7 +26,7 @@ export const Illustration = () => {
                         id='email'
                         type='email'
                         placeholder='Enter your email'
-                        className='block w-full px-4 py-3 rounded-md border-0 text-size-6 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-focus focus:ring-offset-purple-800'
+                        className='block w-full px-4 py-3 rounded-md border-0 text-size-4 text-purple-800 placeholder-purple-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-focus focus:ring-offset-purple-800'
                       />
                     </div>
                     <div className='mt-3 sm:mt-0 sm:ml-3'>
@@ -37,10 +37,10 @@ export const Illustration = () => {
                       </button>
                     </div>
                   </div>
-                  <p className='mt-3 text-sm text-gray-300 sm:mt-4'>
+                  <p className='mt-3 text-sm text-white sm:mt-4'>
                     Start your free 7-day trial, no credit card necessary. By
                     providing your email, you agree to our{" "}
-                    <a href='#' className='font-bold text-white'>
+                    <a href='#' className='font-bold text-white underline'>
                       terms or service
                     </a>
                     .

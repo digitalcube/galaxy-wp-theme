@@ -28,12 +28,10 @@ export const Alternating = () => {
                   <h2 className='text-size-7 font-bold text-purple-primary'>
                     How Shifter benefits businesses
                   </h2>
-                  <p className='mt-4 text-size-5 text-purple-800'>
+                  <p className='mt-4 text-size-6 text-purple-800'>
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
                     iaculis bibendum malesuada faucibus lacinia porttitor.
-                    Pulvinar laoreet sagittis viverra duis. In venenatis sem
-                    arcu pretium pharetra at. Lectus viverra dui tellus ornare
-                    pharetra.
+                    Pulvinar laoreet sagittis viverra duis.
                   </p>
                   <div className='mt-6'>
                     <a
@@ -95,12 +93,10 @@ export const Alternating = () => {
                   <h2 className='text-size-7 font-bold text-purple-primary'>
                     How Shifter benefits no code hustlers
                   </h2>
-                  <p className='mt-4 text-size-5 text-purple-800'>
+                  <p className='mt-4 text-size-6 text-purple-800'>
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
                     iaculis bibendum malesuada faucibus lacinia porttitor.
-                    Pulvinar laoreet sagittis viverra duis. In venenatis sem
-                    arcu pretium pharetra at. Lectus viverra dui tellus ornare
-                    pharetra.
+                    Pulvinar laoreet sagittis viverra duis.
                   </p>
                   <div className='mt-6'>
                     <a
@@ -136,12 +132,10 @@ export const Alternating = () => {
                   <h2 className='text-size-7 font-bold text-purple-primary'>
                     How this benefits developers
                   </h2>
-                  <p className='mt-4 text-size-5 text-purple-800'>
+                  <p className='mt-4 text-size-6 text-purple-800'>
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
                     iaculis bibendum malesuada faucibus lacinia porttitor.
-                    Pulvinar laoreet sagittis viverra duis. In venenatis sem
-                    arcu pretium pharetra at. Lectus viverra dui tellus ornare
-                    pharetra.
+                    Pulvinar laoreet sagittis viverra duis.
                   </p>
                   <div className='mt-6'>
                     <a

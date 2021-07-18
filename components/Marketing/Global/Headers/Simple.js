@@ -24,7 +24,7 @@ export const Simple = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className='text-size-6 font-bold text-white hover:text-indigo-50'>
+                  className='text-size-4 font-bold text-white hover:text-gray-100'>
                   {link.name}
                 </a>
               ))}
@@ -33,12 +33,12 @@ export const Simple = () => {
           <div className='ml-10 space-x-4'>
             <a
               href='#'
-              className='inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-size-6 font-bold text-white hover:bg-opacity-75'>
+              className='inline-block bg-transparent py-2 px-4 border border-transparent rounded-md text-size-4 font-bold text-white'>
               Sign in
             </a>
             <a
               href='#'
-              className='inline-block bg-white py-2 px-4 border border-transparent rounded-md text-size-6 font-bold text-indigo-600 hover:bg-indigo-50'>
+              className='inline-block bg-white py-2 px-4 border border-transparent rounded-md text-size-4 font-bold text-purple-primary hover:bg-gray-100'>
               Sign up
             </a>
           </div>
@@ -48,7 +48,7 @@ export const Simple = () => {
             <a
               key={link.name}
               href={link.href}
-              className='text-size-6 font-bold text-white hover:text-indigo-50'>
+              className='text-size-4 font-bold text-white hover:text-gray-100'>
               {link.name}
             </a>
           ))}
