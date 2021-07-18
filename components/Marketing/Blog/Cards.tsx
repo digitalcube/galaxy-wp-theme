@@ -63,10 +63,10 @@ export const Cards = () => {
       </div>
       <div className='relative max-w-7xl mx-auto'>
         <div className='text-center'>
-          <h2 className='text-3xl font-bold text-purple-primary sm:text-4xl'>
+          <h2 className='text-size-9 font-bold text-purple-primary sm:text-size-9'>
             From the blog
           </h2>
-          <p className='mt-3 max-w-2xl mx-auto text-xl text-purple-800 sm:mt-4'>
+          <p className='mt-3 max-w-2xl mx-auto text-size-6 text-purple-800 sm:mt-4'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
             libero labore natus atque, ducimus sed.
           </p>
@@ -85,16 +85,16 @@ export const Cards = () => {
               </div>
               <div className='flex-1 bg-white p-6 flex flex-col justify-between'>
                 <div className='flex-1'>
-                  <p className='text-sm font-medium text-purple-800'>
+                  <p className='text-sm font-bold text-purple-800'>
                     <a href={post.category.href} className='hover:underline'>
                       {post.category.name}
                     </a>
                   </p>
                   <a href={post.href} className='block mt-2'>
-                    <p className='text-xl font-bold text-gray-900'>
+                    <p className='text-size-6 font-bold text-purple-primary'>
                       {post.title}
                     </p>
-                    <p className='mt-3 text-base text-gray-500'>
+                    <p className='mt-3 text-size-5 text-purple-800'>
                       {post.description}
                     </p>
                   </a>
@@ -111,7 +111,7 @@ export const Cards = () => {
                     </a>
                   </div>
                   <div className='ml-3'>
-                    <p className='text-sm font-medium text-gray-900'>
+                    <p className='text-sm font-bold text-purple-800'>
                       <a href={post.author.href} className='hover:underline'>
                         {post.author.name}
                       </a>

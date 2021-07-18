@@ -43,7 +43,7 @@ export const SimpleCentered = () => {
             alt='Workcation'
           />
           <blockquote className='mt-10'>
-            <div className='max-w-3xl mx-auto text-center text-2xl leading-9 font-bold text-white'>
+            <div className='max-w-3xl mx-auto text-center text-size-6 font-bold text-white'>
               <p>
                 &ldquo;That’s where more user-friendly hosting platforms like
                 Shifter are making inroads on marketing JAMstack technology to a
@@ -62,7 +62,7 @@ export const SimpleCentered = () => {
                   />
                 </div>
                 <div className='mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center'>
-                  <div className='text-base font-bold text-white'>
+                  <div className='text-size-6 font-bold text-white'>
                     Sarah Gooding
                   </div>
 
@@ -73,7 +73,7 @@ export const SimpleCentered = () => {
                     <path d='M11 0h3L9 20H6l5-20z' />
                   </svg>
 
-                  <div className='text-base font-bold text-white'>
+                  <div className='text-size-6 font-bold text-white'>
                     WP Tavern
                   </div>
                 </div>

@@ -2,7 +2,7 @@ export const SimpleHeading = () => {
   return (
     <div className='bg-white'>
       <div className='max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8'>
-        <h2 className='text-2xl font-bold text-gray-600 text-center'>
+        <h2 className='text-size-6 font-bold text-gray-600 text-center'>
           Some of the world&apos;s leading businesses, thinkers, and creatives
           call Shifter home.
         </h2>

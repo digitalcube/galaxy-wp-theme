@@ -48,10 +48,10 @@ export const GridList = () => {
     <div className='bg-white'>
       <div className='max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8'>
         <div className='max-w-3xl mx-auto text-center'>
-          <h2 className='text-3xl font-bold text-purple-primary'>
+          <h2 className='text-size-9 font-bold text-purple-primary'>
             All-in-one platform
           </h2>
-          <p className='mt-4 text-lg text-purple-800'>
+          <p className='mt-4 text-size-6 text-purple-800'>
             Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
             Malesuada adipiscing sagittis vel nulla nec.
           </p>
@@ -64,11 +64,11 @@ export const GridList = () => {
                   className='absolute h-6 w-6 text-magenta-dark'
                   aria-hidden='true'
                 />
-                <p className='ml-9 text-lg leading-6 font-medium text-purple-primary'>
+                <p className='ml-9 text-size-6 font-bold text-purple-primary'>
                   {feature.name}
                 </p>
               </dt>
-              <dd className='mt-2 ml-9 text-base text-purple-800'>
+              <dd className='mt-2 ml-9 text-size-5 text-purple-800'>
                 {feature.description}
               </dd>
             </div>

@@ -35,17 +35,17 @@ const features = [
 export const CenteredGrid = () => {
   return (
     <div className='py-24 bg-white'>
-      <div className='max-w-3xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='lg:text-center'>
-          <h2 className='leading-8 font-bold text-purple-primary text-3xl sm:text-5xl'>
+      <div className='px-4 sm:px-6 lg:px-8'>
+        <div className='lg:text-center max-w-2xl mx-auto'>
+          <h2 className='font-bold text-purple-primary text-size-9 sm:text-5xl'>
             Second core benefit is Security Built-in
           </h2>
-          <p className='mt-4 max-w-2xl text-xl text-purple-800 lg:mx-auto'>
+          <p className='mt-4 max-w-2xl text-size-6 text-purple-800 lg:mx-auto'>
             Create a new site or migrate an existing WordPress site in minutes.​
           </p>
         </div>
 
-        <div className='mt-24 max-w-4xl mx-auto'>
+        <div className='mt-24 max-w-5xl mx-auto'>
           <dl className='space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10'>
             {features.map((feature) => (
               <div key={feature.name} className='relative'>
@@ -58,11 +58,11 @@ export const CenteredGrid = () => {
                       aria-hidden='true'
                     />
                   </div>
-                  <p className='text-2xl mt-4 font-bold text-purple-primary'>
+                  <p className='text-size-6 mt-4 font-bold text-purple-primary'>
                     {feature.name}
                   </p>
                 </dt>
-                <dd className='mt-4 text-base text-purple-800'>
+                <dd className='mt-4 text-size-6 text-purple-800'>
                   {feature.description}
                 </dd>
               </div>

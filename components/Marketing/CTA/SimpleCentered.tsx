@@ -2,13 +2,13 @@ export const CTASimpleCentered = () => {
   return (
     <div className='bg-white'>
       <div className='max-w-2xl mx-auto text-center py-4 px-4 sm:py-12 sm:px-6 lg:px-8'>
-        <h2 className='text-3xl font-bold text-purple-primary sm:text-4xl'>
-          <span className='block text-base uppercase'>CTA</span>
+        <h2 className='text-size-9 font-bold text-purple-primary sm:text-size-9'>
+          <span className='block text-size-6 uppercase'>CTA</span>
           <span className='block'>
             Ready to take your site to the next level?
           </span>
         </h2>
-        <p className='mt-4 text-lg leading-6 text-purple-800'>
+        <p className='mt-4 text-size-6 text-purple-800'>
           Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
           Malesuada adipiscing sagittis vel nulla nec.
         </p>

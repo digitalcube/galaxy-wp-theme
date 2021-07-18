@@ -96,7 +96,7 @@ export const LgAvatar = ({
                 />
               </svg>
               <blockquote className='relative'>
-                <div className='text-2xl leading-9 font-bold text-white'>
+                <div className='text-size-6 font-bold text-white'>
                   <p>{text}</p>
                 </div>
                 <footer className='mt-8'>
@@ -109,10 +109,10 @@ export const LgAvatar = ({
                       />
                     </div>
                     <div className='ml-4 lg:ml-0'>
-                      <div className='text-base font-bold text-white'>
+                      <div className='text-size-6 font-bold text-white'>
                         {author}
                       </div>
-                      <div className='text-base font-bold text-white'>
+                      <div className='text-size-6 font-bold text-white'>
                         {jobTitle}
                       </div>
                     </div>

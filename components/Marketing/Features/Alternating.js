@@ -5,10 +5,10 @@ export const Alternating = () => {
     <div className='bg-white'>
       <div className='max-w-7xl mx-auto pt-16 px-4 sm:py-24 sm:px-6 lg:px-8'>
         <div className='text-center'>
-          <h2 className='mt-1 leading-8 font-bold text-purple-primary text-3xl sm:text-5xl'>
+          <h2 className='mt-1 font-bold text-purple-primary text-size-9 sm:text-5xl'>
             Third core benefit is Easy Installation
           </h2>
-          <p className='mt-4 max-w-2xl text-xl text-purple-800 lg:mx-auto'>
+          <p className='mt-4 max-w-2xl text-size-6 text-purple-800 lg:mx-auto'>
             Start building for free, then add a site plan to go live. Account
             plans unlock additional features.
           </p>
@@ -25,10 +25,10 @@ export const Alternating = () => {
                   </span>
                 </div>
                 <div className='mt-6'>
-                  <h2 className='text-3xl font-bold text-purple-primary'>
+                  <h2 className='text-size-7 font-bold text-purple-primary'>
                     How Shifter benefits businesses
                   </h2>
-                  <p className='mt-4 text-lg text-purple-800'>
+                  <p className='mt-4 text-size-5 text-purple-800'>
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
                     iaculis bibendum malesuada faucibus lacinia porttitor.
                     Pulvinar laoreet sagittis viverra duis. In venenatis sem
@@ -38,7 +38,7 @@ export const Alternating = () => {
                   <div className='mt-6'>
                     <a
                       href='#'
-                      className='inline-flex px-4 py-2 border border-transparent text-base font-bold rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700'>
+                      className='inline-flex px-4 py-2 border border-transparent text-size-6 font-bold rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700'>
                       Get started
                     </a>
                   </div>
@@ -47,7 +47,7 @@ export const Alternating = () => {
               <div className='mt-8 border-t border-gray-200 pt-6'>
                 <blockquote>
                   <div>
-                    <p className='text-base text-purple-800'>
+                    <p className='text-size-5 text-purple-800'>
                       &ldquo;Call to Action Customer Showcase velit quis eros
                       eget rhoncus lacus ultrices sed diam. Sit orci risus
                       aenean curabitur donec aliquet. Mi venenatis in euismod
@@ -63,7 +63,7 @@ export const Alternating = () => {
                           alt=''
                         />
                       </div>
-                      <div className='text-base font-bold text-purple-800'>
+                      <div className='text-size-4 font-bold text-purple-800'>
                         Marcia Hill, Digital Marketing Manager
                       </div>
                     </div>
@@ -92,10 +92,10 @@ export const Alternating = () => {
                   </span>
                 </div>
                 <div className='mt-6'>
-                  <h2 className='text-3xl font-bold text-purple-primary'>
+                  <h2 className='text-size-7 font-bold text-purple-primary'>
                     How Shifter benefits no code hustlers
                   </h2>
-                  <p className='mt-4 text-lg text-purple-800'>
+                  <p className='mt-4 text-size-5 text-purple-800'>
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
                     iaculis bibendum malesuada faucibus lacinia porttitor.
                     Pulvinar laoreet sagittis viverra duis. In venenatis sem
@@ -105,7 +105,7 @@ export const Alternating = () => {
                   <div className='mt-6'>
                     <a
                       href='#'
-                      className='inline-flex px-4 py-2 border border-transparent text-base font-bold rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700'>
+                      className='inline-flex px-4 py-2 border border-transparent text-size-6 font-bold rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700'>
                       Get started
                     </a>
                   </div>
@@ -133,10 +133,10 @@ export const Alternating = () => {
                   </span>
                 </div>
                 <div className='mt-6'>
-                  <h2 className='text-3xl font-bold text-purple-primary'>
+                  <h2 className='text-size-7 font-bold text-purple-primary'>
                     How this benefits developers
                   </h2>
-                  <p className='mt-4 text-lg text-purple-800'>
+                  <p className='mt-4 text-size-5 text-purple-800'>
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
                     iaculis bibendum malesuada faucibus lacinia porttitor.
                     Pulvinar laoreet sagittis viverra duis. In venenatis sem
@@ -146,7 +146,7 @@ export const Alternating = () => {
                   <div className='mt-6'>
                     <a
                       href='#'
-                      className='inline-flex px-4 py-2 border border-transparent text-base font-bold rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700'>
+                      className='inline-flex px-4 py-2 border border-transparent text-size-6 font-bold rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700'>
                       Get started
                     </a>
                   </div>
@@ -155,7 +155,7 @@ export const Alternating = () => {
               <div className='mt-8 border-t border-gray-200 pt-6'>
                 <blockquote>
                   <div>
-                    <p className='text-base text-purple-800'>
+                    <p className='text-size-5 text-purple-800'>
                       &ldquo;Call to Action Customer Showcase velit quis eros
                       eget rhoncus lacus ultrices sed diam. Sit orci risus
                       aenean curabitur donec aliquet. Mi venenatis in euismod
@@ -171,7 +171,7 @@ export const Alternating = () => {
                           alt=''
                         />
                       </div>
-                      <div className='text-base font-bold text-purple-800'>
+                      <div className='text-size-4 font-bold text-purple-800'>
                         Takashi Kitajima, Creator of Snow Monkey
                       </div>
                     </div>

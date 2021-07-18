@@ -3,6 +3,22 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontSize: {
+      "size-1": "0.625rem", // 10px
+      "size-2": "0.75rem", // 12px
+      "size-3": "0.875rem", // 14px
+      "size-4": "1rem", // 16px
+      "size-5": "1.125rem", // 18px
+      "size-6": [
+        "1.375rem", // 22px
+        {
+          lineHeight: "150%",
+        },
+      ],
+      "size-7": "1.875rem", // 30px
+      "size-8": "2.375rem", // 38px
+      "size-9": "3.125rem", // 50px
+    },
     fontFamily: {
       sans: ["sofia-pro", "sans-serif"],
     },
