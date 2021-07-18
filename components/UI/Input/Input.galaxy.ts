@@ -1,0 +1,52 @@
+export const inputTheme = {
+  input: {
+    DEFAULT: 'block w-full px-4 py-3 rounded border-0 text-size-4',
+    primary: [
+      'text-purple-800 placeholder-purple-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-focus focus:ring-offset-purple-800',
+    ],
+    danger: [
+      'py-2',
+      'px-4',
+      'bg-status-danger-default',
+      'text-white',
+      'hover:bg-status-danger-dark',
+    ],
+    white: [
+      'bg-white',
+      'text-purple-primary',
+      'placeholder-purple-primary',
+      'hover:bg-gray-100',
+      'hover:text-shifter-purple-700',
+    ],
+    ghost: [
+      'py-2',
+      'px-4',
+      'bg-transparent',
+      'text-shifter-purple-primary',
+      'hover:bg-purple-200',
+      'focus:bg-transparent',
+    ],
+    success: [
+      'py-2',
+      'px-4',
+      'bg-status-success-default',
+      'text-white',
+      'hover:bg-status-success-dark',
+    ],
+    link: ['p-0'],
+    outlinePrimary: [
+      'py-2',
+      'px-4',
+      'bg-transparent',
+      'ring-2',
+      'ring-shifter-purple-primary',
+      'hover:bg-purple-600',
+      'hover:text-white',
+      'focus:ring',
+      'focus:bg-purple-500',
+      'text-shifter-purple-primary',
+      'disabled:bg-shifter-gray-200',
+      'disabled:text-shifter-gray-300',
+    ],
+  },
+};

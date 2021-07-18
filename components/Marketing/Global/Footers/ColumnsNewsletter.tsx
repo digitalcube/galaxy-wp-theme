@@ -1,4 +1,6 @@
 /* eslint-disable react/display-name */
+import { Input } from "../../../UI/Input";
+
 const navigation = {
   solutions: [
     { name: "Marketing", href: "#" },
@@ -123,15 +125,7 @@ export const ColumnsNewsletter = () => {
               <label htmlFor='email-address' className='sr-only'>
                 Email address
               </label>
-              <input
-                type='email'
-                name='email-address'
-                id='email-address'
-                autoComplete='email'
-                required
-                className='appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-size-4 text-purple-800 placeholder-purple-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-purple-800 focus:ring-white focus:border-white focus:placeholder-purple-800'
-                placeholder='Enter your email'
-              />
+              <Input placeholder='Enter your email' id='email' type='email' variant="white" />
               <div className='mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0'>
                 <button
                   type='submit'

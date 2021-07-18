@@ -1,4 +1,5 @@
 import { ChevronRightIcon } from "@heroicons/react/solid";
+import { Input } from "../../UI/Input";
 
 export const Illustration = () => {
   return (
@@ -22,11 +23,11 @@ export const Illustration = () => {
                       <label htmlFor='email' className='sr-only'>
                         Email address
                       </label>
-                      <input
+                      <Input
+                      variant="white"
+                        placeholder='Enter your email'
                         id='email'
                         type='email'
-                        placeholder='Enter your email'
-                        className='block w-full px-4 py-3 rounded-md border-0 text-size-4 text-purple-800 placeholder-purple-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-focus focus:ring-offset-purple-800'
                       />
                     </div>
                     <div className='mt-3 sm:mt-0 sm:ml-3'>
@@ -54,7 +55,7 @@ export const Illustration = () => {
               {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
               <img
                 className='w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none'
-                src='https://tailwindui.com/img/component-images/cloud-illustration-indigo-400.svg'
+                src='/cloud-illustration.svg'
                 alt=''
               />
             </div>
