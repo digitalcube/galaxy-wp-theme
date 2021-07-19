@@ -99,7 +99,7 @@ export const ColumnsNewsletter = () => {
       </h2>
       <div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8'>
         <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
-          <div className='mt-8 xl:mt-0'>
+          <div className='my-8 xl:mt-0'>
             <h3 className='text-size-6 font-bold text-purple-primary'>
               Say Hello
             </h3>

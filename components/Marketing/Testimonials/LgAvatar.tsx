@@ -7,7 +7,7 @@ export const LgAvatar = ({
   jobTitle,
 }: TestimonialProps) => {
   return (
-    <section className='bg-purple-800 py-24'>
+    <section className='bg-purple-800 py-24 overflow-x-hidden'>
       <div>
         <div className='relative max-w-4xl  mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-16'>
           <img
@@ -19,7 +19,7 @@ export const LgAvatar = ({
           <img
             src='/half-circle-purple.svg'
             alt=''
-            className='absolute right-0 bottom-0 transform translate-x-1/2 translate-y-1/4 w-half rotate-180'
+            className='absolute right-0 bottom-0 transform translate-x-1/2 translate-y-1/4 w-half rotate-180 w-auto'
           />
 
           <div className='relative lg:flex lg:items-center'>
