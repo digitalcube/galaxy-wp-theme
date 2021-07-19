@@ -55,7 +55,7 @@ export const Illustration = () => {
               {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
               <img
                 className='w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none'
-                src='/cloud-illustration.svg'
+                src='/shifter-site-hero.png'
                 alt=''
               />
             </div>

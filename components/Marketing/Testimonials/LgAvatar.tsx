@@ -7,7 +7,7 @@ export const LgAvatar = ({
   jobTitle,
 }: TestimonialProps) => {
   return (
-    <section className='bg-purple-800 py-24 overflow-x-hidden'>
+    <section className='bg-purple-800 py-24 overflow-hidden'>
       <div>
         <div className='relative max-w-4xl  mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-16'>
           <img
