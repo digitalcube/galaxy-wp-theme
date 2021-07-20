@@ -61,7 +61,7 @@ export const Cards = () => {
       <div className='absolute inset-0'>
         <div className='bg-white h-1/3 sm:h-2/3' />
       </div>
-      <div className='relative max-w-7xl mx-auto'>
+      <div className='relative max-w-6xl mx-auto'>
         <div className='text-center'>
           <h2 className='text-size-9 font-bold text-purple-primary sm:text-size-9'>
             From the blog

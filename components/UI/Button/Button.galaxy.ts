@@ -1,9 +1,8 @@
-const buttonBase = ['py-2', 'px-4', 'inline-block', 'font-bold'];
+const buttonBase = ['py-3', 'px-4', 'font-bold', 'inline-flex'];
 
 export const buttonTheme = {
   button: {
     DEFAULT: [
-      'border-2',
       'border-transparent',
       'focus:outline-none',
       'items-center',
@@ -13,6 +12,7 @@ export const buttonTheme = {
     ],
     primary: [
       ...buttonBase,
+      'whitespace-nowrap',
       'bg-purple-500',
       'disabled:bg-gray-200',
       'disabled:text-gray-300',

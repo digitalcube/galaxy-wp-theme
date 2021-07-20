@@ -1,12 +1,26 @@
+
+//block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:flex-1 border-gray-300
 export const inputTheme = {
   input: {
-    DEFAULT: 'block w-full px-4 py-3 rounded border-0 text-size-4',
+    DEFAULT: [
+      'rounded',
+      'flex',
+      'flex-grow',
+      'py-3',
+      'px-2',
+      'border',
+      'border-gray-300',
+      'border-2',
+    ],
     primary: [
-      'text-purple-800 placeholder-purple-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-focus focus:ring-offset-purple-800',
+      'text-gray-700',
+      'placeholder-gray-800',
+      'focus:outline-none',
+      'focus:ring-2',
+      'focus:ring-offset-2',
+      'focus:ring-focus',
     ],
     danger: [
-      'py-2',
-      'px-4',
       'bg-status-danger-default',
       'text-white',
       'hover:bg-status-danger-dark',
@@ -19,8 +33,6 @@ export const inputTheme = {
       'hover:text-shifter-purple-700',
     ],
     ghost: [
-      'py-2',
-      'px-4',
       'bg-transparent',
       'text-shifter-purple-primary',
       'hover:bg-purple-200',

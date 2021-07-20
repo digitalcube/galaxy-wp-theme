@@ -35,12 +35,16 @@ import {
   CenteredGrid,
   GridList,
 } from "../components/Marketing/Features";
-import { LgAvatar, SimpleCentered } from "../components/Marketing/Testimonials";
+import {
+  LgAvatar,
+  SimpleCentered as TestimonialsSimpleCentered,
+} from "../components/Marketing/Testimonials";
 import { Cards } from "../components/Marketing/Blog";
+import { BenefitsSplitTestimonial } from "../components/Marketing/Benefits";
 import { CTASimpleCentered } from "../components/Marketing/CTA";
 import { Simple } from "../components/Marketing/Global/Headers";
-import { Illustration } from "../components/Marketing/Heros/Illustration";
-import { SimpleHeading } from "../components/Marketing/Logos/SimpleHeading";
+import { SimpleCentered as HerosSimpleCentered } from "../components/Marketing/Heros";
+import { LogosSimple } from "../components/Marketing/Logos";
 import { ColumnsNewsletter } from "../components/Marketing/Global/Footers";
 
 export default function Index() {
@@ -49,7 +53,7 @@ export default function Index() {
       <Head>
         <title>Shifter</title>
         <link rel='icon' href='/favicon.ico' />
-        <link rel="stylesheet" href="https://use.typekit.net/rrt0shs.css" />
+        <link rel='stylesheet' href='https://use.typekit.net/rrt0shs.css' />
       </Head>
 
       <main>
@@ -57,13 +61,16 @@ export default function Index() {
         <Simple />
 
         {/* Hero */}
-        <Illustration />
+        <HerosSimpleCentered />
 
         {/* Logos */}
-        <SimpleHeading />
+        <LogosSimple />
 
         {/* Product Walkthrough */}
         <LgScreenshot />
+
+        {/* Core Benefit 1 */}
+        <BenefitsSplitTestimonial />
 
         {/* Features 1 */}
         <GridIcons />
@@ -75,7 +82,7 @@ export default function Index() {
         <CenteredGrid />
 
         {/* Praise Quote */}
-        <SimpleCentered />
+        <TestimonialsSimpleCentered />
 
         {/* Features */}
         <Alternating />

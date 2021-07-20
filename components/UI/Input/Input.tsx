@@ -21,12 +21,17 @@ export const Input: FC<Input> = ({
   });
 
   return (
-    <input
-      {...props}
-      className={classNames}
-      placeholder={placeholder}
-      autoComplete='off'
-    />
+    <>
+      <label htmlFor='email' className='sr-only'>
+        Email
+      </label>
+      <input
+        {...props}
+        className={classNames}
+        placeholder={placeholder}
+        autoComplete='off'
+      />
+    </>
   );
 };
 

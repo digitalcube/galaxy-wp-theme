@@ -3,6 +3,13 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    boxShadow: {
+      DEFAULT: "0px 1px 8px rgba(69, 29, 57, 0.1)",
+      2: "0px 0px 10px rgba(69, 29, 57, 0.2)",
+      3: "0px 8px 15px rgba(69, 29, 57, 0.2), 0px 8px 20px 4px rgba(69, 29, 57, 0.15)",
+      4: "0px 6px 18px rgba(69, 29, 57, 0.29), 0px 19px 29px rgba(69, 29, 57, 0.35)",
+      none: "none",
+    },
     fontSize: {
       "size-1": "0.625rem", // 10px
       "size-2": "0.75rem", // 12px
