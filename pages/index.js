@@ -39,8 +39,8 @@ import {
   LgAvatar,
   SimpleCentered as TestimonialsSimpleCentered,
 } from "../components/Marketing/Testimonials";
-import { Cards } from "../components/Marketing/Blog";
-import { BenefitsSplitTestimonial } from "../components/Marketing/Benefits";
+import { BlogLatest } from "../components/Marketing/Blog";
+import { BenefitsSplitIllustration } from "../components/Marketing/Benefits";
 import { CTASimpleCentered } from "../components/Marketing/CTA";
 import { Simple } from "../components/Marketing/Global/Headers";
 import { SimpleCentered as HerosSimpleCentered } from "../components/Marketing/Heros";
@@ -70,22 +70,22 @@ export default function Index() {
         <LgScreenshot />
 
         {/* Core Benefit 1 */}
-        <BenefitsSplitTestimonial />
-
-        {/* Features 1 */}
-        <GridIcons />
+        <BenefitsSplitIllustration
+          headline='WordPress - Blazing Fast'
+          alternativeHeadline='WordPress at the speed of static'
+          description='Shifter automatically handles your WordPress install and creates scalable sites with no downtime.'
+        />
 
         {/* Praise Quote */}
         <LgAvatar />
 
-        {/* Features 2 */}
-        <CenteredGrid />
-
-        {/* Praise Quote */}
-        <TestimonialsSimpleCentered />
-
-        {/* Features */}
-        <Alternating />
+        {/* Core Benefit 2 */}
+        <BenefitsSplitIllustration
+          align='right'
+          alternativeHeadline='Security Built In'
+          headline='Virtually unhackable WordPress sites'
+          description='Shifter automatically handles your WordPress install and creates scalable sites with no downtime.'
+        />
 
         {/* Praise Quote */}
         <LgAvatar
@@ -97,11 +97,24 @@ export default function Index() {
           cool system.'
         />
 
-        {/* Features 3 */}
-        <GridList />
+        {/* Core Benefit 3 */}
+        <BenefitsSplitIllustration
+          align='left'
+          alternativeHeadline='Maintenance Free'
+          headline='Never worry about updates again'
+          description='Shifter automatically handles your WordPress install and creates sites that are scalable with no downtime.'
+        />
 
-        {/* Blog */}
-        <Cards />
+        {/* Praise Quote */}
+        <LgAvatar
+          author='Matt Biilmann'
+          image='https://github.com/biilmann.png'
+          jobTitle='CEO and Co-Founder of Netlify'
+          text='Shifter built a docker based system, deploying WordPress to Netlify – awesome! '
+        />
+
+        {/* Latest Articles */}
+        <BlogLatest />
 
         {/* CTA */}
         <CTASimpleCentered />

@@ -1,1 +1,1 @@
-export * from './SplitTestimonial';
+export * from './SplitIllustration';

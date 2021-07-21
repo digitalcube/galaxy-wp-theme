@@ -45,6 +45,7 @@ module.exports = {
         300: `#BDB6B8`,
         200: `#DBD7D8`,
         100: `#F8F5F5`,
+        50: `#F6F5F6`,
       },
       purple: {
         primary: `#892885`,
