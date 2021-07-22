@@ -1,33 +1,5 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
-import {
-  MenuIcon,
-  XIcon,
-  CloudUploadIcon,
-  CogIcon,
-  LockClosedIcon,
-  RefreshIcon,
-  ServerIcon,
-  ShieldCheckIcon,
-  InboxIcon,
-  UserIcon,
-  UsersIcon,
-  TrashIcon,
-  PencilAltIcon,
-  DocumentReportIcon,
-  ReplyIcon,
-  ChatAltIcon,
-  HeartIcon,
-  SparklesIcon,
-  GlobeAltIcon,
-  ScaleIcon,
-  LightningBoltIcon,
-  MailIcon,
-} from "@heroicons/react/outline";
-
-import { ChevronRightIcon } from "@heroicons/react/solid";
-
 import {
   Alternating,
   LgScreenshot,

@@ -4,7 +4,7 @@ export const LogosSimple = () => {
   return (
     <div className='bg-white'>
       <div className='max-w-6xl mx-auto py-16 px-4 sm:pt-40 sm:pb-20 sm:px-6 lg:px-8 text-center'>
-        <div className='flow-root mb-8 lg:mb-8'>
+        <div className='flow-root mb-8 lg:mb-16'>
           <div className='-mt-6 -ml-8 flex flex-wrap justify-between lg:-ml-4'>
             <div className='mt-6 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4 items-center'>
               <img
