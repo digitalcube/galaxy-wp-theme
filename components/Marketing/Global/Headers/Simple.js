@@ -2,7 +2,7 @@ import { Button } from "../../../UI";
 
 const navigation = [
   { name: "Solutions", href: "#" },
-  { name: "Pricing", href: "#" },
+  { name: "Pricing", href: "/pricing/" },
   { name: "Docs", href: "#" },
   { name: "Company", href: "#" },
 ];
@@ -13,7 +13,7 @@ export const Simple = () => {
       <nav className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8' aria-label='Top'>
         <div className='w-full py-6 flex items-center'>
           <div className='flex items-center flex-grow'>
-            <a href='#'>
+            <a href='/'>
               <span className='sr-only'>Shifter</span>
               <img
                 className='h-10 w-auto'
