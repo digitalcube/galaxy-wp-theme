@@ -18,11 +18,7 @@ export const SimpleCentered = () => {
         </p>
         <div className='mt-8 sm:max-w-lg sm:mx-auto'>
           <form action='#' method='POST' className='flex'>
-            <Input
-              className='flex flex-grow border-r-transparent rounded-r-none border-r-0'
-              placeholder='Enter your email'
-              variant='primary'
-            />
+            <Input placeholder='Enter your email' variant='primary' className="rounded-none" />
             <Button label='Get Started' className='rounded-l-none' />
           </form>
           <p className='mt-4 text-sm text-gray-400'>

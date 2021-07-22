@@ -3,7 +3,6 @@
 export const inputTheme = {
   input: {
     DEFAULT: [
-      'rounded',
       'flex',
       'flex-grow',
       'py-3',
@@ -13,8 +12,9 @@ export const inputTheme = {
       'border-2',
     ],
     primary: [
+      'rounded',
       'text-gray-700',
-      'placeholder-gray-800',
+      'placeholder-gray-700',
       'focus:outline-none',
       'focus:ring-2',
       'focus:ring-offset-2',
