@@ -8,7 +8,7 @@ const posts = [
     date: "Mar 10, 2020",
     datetime: "2020-03-10",
     image:
-      "https://cdn.getshifter.co/caa65008efb706a8bfc6f7e4045d6a018420c3df/uploads/2021/04/header-300x125.png",
+      "https://cdn.getshifter.co/caa65008efb706a8bfc6f7e4045d6a018420c3df/uploads/2020/12/using-bogo-with-headless-featured-300x183.png",
     author: {
       name: "Dan Olson",
       href: "#",
@@ -86,23 +86,22 @@ export const BlogLatest = () => {
             Get the news on product updates, events, and the industry.
           </p>
         </div>
-        <div className='grid grid-rows-3 grid-cols-3 grid-flow-col pt-12 lg:grid-cols-3 gap-4'>
+        <div className='lg:grid grid-flow-col grid-cols-3 grid-rows-3 gap-6 pt-16'>
           {posts.map((post, i) => (
             <div
               key={post.title}
               className={classnames(
                 i === 3
-                  ? "row-span-2 col-span-1 col-start-3 grid-cols-1"
-                  : "lg:grid-cols-3 col-span-2 col-start-1",
-                "grid pt-12 lg:gap-x-5"
+                  ? "flex lg:grid grid-rows-2 row-span-3"
+                  : "grid col-span-2 grid-cols-4",
               )}>
-              <div className={classnames(i === 3 ? "col-span-1" : "")}>
-                <img className='w-full' alt='' src={post.image} />
+              <div className={classnames("relative", i === 3 ? "row-span-1 col-span-4" : "col-span-1")}>
+                <img className='w-full h-auto' alt='' src={post.image} />
               </div>
-              <div className='col-span-2'>
+              <div className={classnames("col-span-3", i === 3 ? "pt-6" : "pl-6")}>
                 <a href={post.href} className='block'>
                   <p className='text-size-6 font-bold text-gray-600'>
-                    {post.title} {i}
+                    {post.title}
                   </p>
                 </a>
                 <div className='mt-2'>
