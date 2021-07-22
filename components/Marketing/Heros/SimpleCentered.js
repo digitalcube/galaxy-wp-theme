@@ -2,8 +2,9 @@ import { Input, Button } from "../../UI";
 
 export const SimpleCentered = () => {
   return (
-    <section className='mt-16 mx-auto max-w-7xl px-4 sm:mt-24'>
-      <div className='text-center'>
+    <section className='mt-16 mx-auto max-w-5xl px-4 sm:mt-24 relative'>
+      <img src="/hero-background.svg" alt="" className="object-cover w-full absolute -top-1/2" />
+      <div className='text-center relative'>
         <h1 className='text-size-9 font-bold text-gray-800'>
           <span className='block xl:inline'>WordPress at the speed</span>{" "}
           <span className='block text-gray-800 xl:inline'>of static</span>

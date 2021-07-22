@@ -5,18 +5,19 @@ import { BenefitsProps } from "./BenefitsProps";
 export const BenefitsSplitIllustration = ({
   align = "left",
   headline,
+  image,
   alternativeHeadline,
   description,
 }: BenefitsProps) => {
   return (
-    <div className='bg-gray-50'>
+    <div className='bg-gray-10'>
       <div className='max-w-7xl mx-auto pt-16 px-4 sm:pt-24 sm:px-6 lg:px-8'>
         <div className='text-center space-y-2'>
-          <h2 className='text-black text-size-5'>{alternativeHeadline}</h2>
-          <p className='max-w-2xl text-size-8 text-black font-bold lg:mx-auto'>
+          <h2 className='text-purple-700 text-size-5'>{alternativeHeadline}</h2>
+          <p className='max-w-2xl text-size-8 text-gray-800 font-bold lg:mx-auto'>
             {headline}
           </p>
-          <p className='text-black text-size-5'>{description}</p>
+          <p className='text-gray-600 text-size-5'>{description}</p>
         </div>
       </div>
       <div className='relative pb-32 overflow-hidden'>
@@ -71,9 +72,9 @@ export const BenefitsSplitIllustration = ({
                 <img
                   className={classnames(
                     align === "right" ? "left-0" : "right-0",
-                    "w-full rounded shadow-3 ring-1 ring-black ring-opacity-5 lg:absolute lg:h-full lg:w-auto lg:max-w-none"
+                    "w-full ring-black ring-opacity-5 lg:absolute lg:h-full lg:w-auto lg:max-w-none"
                   )}
-                  src='/screenshot-dashboard-home.png'
+                  src={`${image}`}
                   alt='Shifter user interface'
                 />
               </div>
@@ -88,6 +89,7 @@ export const BenefitsSplitIllustration = ({
 BenefitsSplitIllustration.defaultProps = {
   headline: "Security Built In",
   alternativeHeadline: "Virtually unhackable WordPress sites",
+  image: "/screenshot-dashboard-home.png",
   description:
     "Shifter automatically handles your WordPress install and creates scalable sites with no downtime.",
 };

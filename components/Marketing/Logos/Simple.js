@@ -3,42 +3,49 @@ import { Button } from "../../UI";
 export const LogosSimple = () => {
   return (
     <div className='bg-white'>
-      <div className='max-w-6xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8 text-center'>
-        <div className='flow-root my-8 lg:my-10'>
-          <div className='-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4'>
-            <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
+      <div className='max-w-6xl mx-auto py-16 px-4 sm:pt-40 sm:pb-20 sm:px-6 lg:px-8 text-center'>
+        <div className='flow-root mb-8 lg:mb-8'>
+          <div className='-mt-6 -ml-8 flex flex-wrap justify-between lg:-ml-4'>
+            <div className='mt-6 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4 items-center'>
               <img
-                className='h-12'
-                src='https://tailwindui.com/img/logos/tuple-logo-gray-400.svg'
-                alt='Tuple'
+                className='h-6'
+                src='/lixil-logo-gray-300.svg'
+                alt='Lixil'
               />
             </div>
-            <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
+            <div className='mt-6 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4 items-center'>
               <img
-                className='h-12'
-                src='https://tailwindui.com/img/logos/mirage-logo-gray-400.svg'
-                alt='Mirage'
+                className='h-6'
+                src='/mhi-logo-gray-300.svg'
+                alt='MHI'
               />
             </div>
-            <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
+            <div className='mt-6 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4 items-center'>
               <img
-                className='h-12'
-                src='https://tailwindui.com/img/logos/statickit-logo-gray-400.svg'
-                alt='StaticKit'
+                className='h-6'
+                src='/soracom-logo-gray-300.svg'
+                alt='Soracom'
               />
             </div>
-            <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
+            <div className='mt-6 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4 items-center'>
               <img
-                className='h-12'
-                src='https://tailwindui.com/img/logos/transistor-logo-gray-400.svg'
-                alt='Transistor'
+                className='h-6'
+                src='/infobahn-logo-gray-300.svg'
+                alt='Infobahn'
               />
             </div>
-            <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
+            <div className='mt-6 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4 items-center'>
               <img
-                className='h-12'
-                src='https://tailwindui.com/img/logos/workcation-logo-gray-400.svg'
-                alt='Workcation'
+                className='h-6'
+                src='/docomo-logo-gray-300.svg'
+                alt='Docomo'
+              />
+            </div>
+            <div className='mt-6 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4 items-center'>
+              <img
+                className='h-6'
+                src='/mikihouse-logo-gray-300.svg'
+                alt='Mikihouse'
               />
             </div>
           </div>

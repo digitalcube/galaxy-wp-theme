@@ -69,22 +69,50 @@ export default function Index() {
         {/* Product Walkthrough */}
         <LgScreenshot />
 
+        {/* CTA */}
+        <CTASimpleCentered />
+
         {/* Core Benefit 1 */}
         <BenefitsSplitIllustration
+          image='/benefit-start-wordpress.png'
           headline='WordPress - Blazing Fast'
           alternativeHeadline='WordPress at the speed of static'
           description='Shifter automatically handles your WordPress install and creates scalable sites with no downtime.'
         />
 
         {/* Praise Quote */}
-        <LgAvatar />
+        <LgAvatar
+          image='https://github.com/theburningmonk.png'
+          author='Yan Cui'
+          jobTitle='Independent Consultant, AWS Serverless Hero, Dev Advocate'
+          text='As an engineer, I also think it’s a fantastic use of technology. As a blogger, it gives me the performance and scalability I’m after, at a price point that is much cheaper compared to other hosting options.'
+        />
 
         {/* Core Benefit 2 */}
         <BenefitsSplitIllustration
           align='right'
           alternativeHeadline='Security Built In'
+          image='/benefit-security-built-in.png'
           headline='Virtually unhackable WordPress sites'
           description='Shifter automatically handles your WordPress install and creates scalable sites with no downtime.'
+        />
+
+         {/* Praise Quote */}
+         <LgAvatar
+          author='Matt Biilmann'
+          image='https://github.com/biilmann.png'
+          jobTitle='CEO and Co-Founder of Netlify'
+          text='Shifter built a docker based system, deploying WordPress to Netlify – awesome!'
+        />
+
+
+        {/* Core Benefit 3 */}
+        <BenefitsSplitIllustration
+          align='left'
+          image='/benefit-start-wordpress.png'
+          alternativeHeadline='Maintenance Free'
+          headline='Never worry about updates again'
+          description='Shifter automatically handles your WordPress install and creates sites that are scalable with no downtime.'
         />
 
         {/* Praise Quote */}
@@ -97,27 +125,11 @@ export default function Index() {
           cool system.'
         />
 
-        {/* Core Benefit 3 */}
-        <BenefitsSplitIllustration
-          align='left'
-          alternativeHeadline='Maintenance Free'
-          headline='Never worry about updates again'
-          description='Shifter automatically handles your WordPress install and creates sites that are scalable with no downtime.'
-        />
-
-        {/* Praise Quote */}
-        <LgAvatar
-          author='Matt Biilmann'
-          image='https://github.com/biilmann.png'
-          jobTitle='CEO and Co-Founder of Netlify'
-          text='Shifter built a docker based system, deploying WordPress to Netlify – awesome! '
-        />
+        {/* CTA */}
+        <CTASimpleCentered />
 
         {/* Latest Articles */}
         <BlogLatest />
-
-        {/* CTA */}
-        <CTASimpleCentered />
 
         {/* Footer */}
         <ColumnsNewsletter />

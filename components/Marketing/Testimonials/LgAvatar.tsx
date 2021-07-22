@@ -7,11 +7,11 @@ export const LgAvatar = ({
   jobTitle,
 }: TestimonialProps) => {
   return (
-    <section className='bg-gradient-to-b from-purple-100 to-purple-50 overflow-hidden relative'>
+    <section className='bg-gradient-to-b from-purple-100 to-transparent overflow-hidden relative'>
       <img
         src='/geo-background.svg'
         alt=''
-        className='absolute left-0 right-0 top-0'
+        className='absolute left-0 right-0 top-0 opacity-50'
       />
       <div className='relative max-w-4xl  mx-auto py-28 px-4 sm:px-6 lg:px-8'>
         <div className='relative lg:flex lg:items-center'>
